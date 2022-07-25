@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 680px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #313131;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.row {
+    text-align: center;
+    width: 100%;
+}
+
+.row .header {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto 35px 40px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600; /* Semibold */
+}
+
+.btn-add-color {
+    width: 220px;
+    height: 35px;
+    margin: 30px 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700; /* Bold */
+    border: 1px solid #53CBF1;
+    background-color: #313131;
+    border-radius: 18px; /* height/2 = 35px/2 = 17.5px */
+
+}
+
+.table {
+    width: 100%;
+}
+
+.table .table-row {
+    display: grid;
+    background-color: #424242;
+    grid-template-columns: 90px auto 115px 115px 115px 115px;
+    grid-template-rows: 55px;
+}
+
+.table .table-row .table-header-item {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.table .table-row .table-item {
+    color: #BFBFBF;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.table .table-row .table-header-item,
+.table .table-row .table-item {
+    padding: 15px;
+    border-top: 1px solid #313131;
+    border-right: 1px solid #313131;
+    display: flex;
+    align-items: center;
+}
+
+.table .table-row .table-item.color, 
+.table .table-row .table-item.color-change,
+.table .table-row .table-item.color-remove {
+    justify-content: center;
+}
+
+.color-square {
+    width: 40px;
+    height: 40px;
+    background-color: #86EAE9; /* TempFix */
+}
+
+.save-icon {
+    background: url('../icons/save.svg') no-repeat center;
+    width: 25px;
+    height: 25px;
+}
+
+.close-icon {
+    background: url('../icons/close.svg') no-repeat center;
+    width: 25px;
+    height: 25px;
+}
+
+.color-change-icon {
+    background: url('../icons/pen.svg') no-repeat center;
+    width: 20px;
+    height: 20px;
+}
+
+.color-change-icon:hover {
+    background: url('../icons/hovered-pen.svg') no-repeat center;
+    width: 20px;
+    height: 20px;
+}
+
+.color-remove-icon {
+    background: url('../icons/bin.svg') no-repeat center;
+    width: 20px;
+    height: 20px;
+}
+
+.color-remove-icon:hover {
+    background: url('../icons/hovered-bin.svg') no-repeat center;
+    width: 20px;
+    height: 20px;
+}
+
+/* table .table {
+    width: 100%;
+    background-color: #424242;
+    border: 1px solid #313131;
+}
+
+table.table thead tr,
+table.table tbody tr {
+    height: 55px;
+}
+
+table.table thead tr th,
+table.table tbody tr td {
+    padding: 15px;
+    flex: 1;
+    background-color: #424242;
+}
+
+table.table thead tr th {
+    width: 115px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+table.table tbody tr td {
+    color: #BFBFBF;
+    font-size: 11px;
+    font-weight: 400;
+} */

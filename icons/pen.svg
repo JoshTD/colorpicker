@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.7166748mm"
+   height="4.0925713mm"
+   viewBox="0 0 3.7166748 4.0925713"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="растровый.svg"
+   inkscape:export-xdpi="160"
+   inkscape:export-ydpi="160"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-89.366686,-38.082023)">
+    <path
+       d="m 92.110439,38.374251 c 0.04572,-0.05071 0.100012,-0.09093 0.159755,-0.118367 0.05974,-0.02744 0.123772,-0.04157 0.188436,-0.04157 0.06469,0 0.12872,0.01412 0.188463,0.04157 0.05974,0.02744 0.114009,0.06766 0.159755,0.118367 0.04572,0.0507 0.08199,0.1109 0.106733,0.177149 0.02474,0.06625 0.03749,0.137255 0.03749,0.208962 0,0.07171 -0.01275,0.142711 -0.03749,0.20896 -0.02474,0.06625 -0.06101,0.126445 -0.106733,0.177149 l -2.350333,2.606252 -0.95754,0.289587 0.261146,-1.0618 z"
+       stroke="#8d8d8d"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path231"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>
