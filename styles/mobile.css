@@ -1,0 +1,7 @@
+.table {
+    overflow-x: scroll;
+}
+
+.table .table-row .table-item {
+    font-size: 14px;
+}

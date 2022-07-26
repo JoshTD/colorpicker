@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" media="screen and (max-width: 680px)" href="styles/mobile.css">
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -19,7 +20,7 @@
             
         </div>
         <div class="row">
-            <div class="table">
+            <div id="table" class="table">
                 <div class="table-row">
                     <div class="table-header-item">
                         Цвет
@@ -40,17 +41,17 @@
                         Удалить
                     </div>
                 </div>
-                <div class="table-row">
+                <!-- <div class="table-row">
                     <div class="table-item color">
                         <div class="color-square"></div>
                     </div>
-                    <div class="table-item color-name">
+                    <div class="table-item">
                         Мятное утро
                     </div>
-                    <div class="table-item color-type">
+                    <div class="table-item">
                         base
                     </div>
-                    <div class="table-item color-code">
+                    <div class="table-item">
                         #86EAE9
                     </div>
                     <div class="table-item color-change">
@@ -59,42 +60,8 @@
                     <div class="table-item color-remove">
                         <div class="color-remove-icon"></div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <!-- <table class="table">
-                <thead>
-                    <tr>
-                        <th>Цвет</th>
-                        <th>Название</th>
-                        <th>Тип</th>
-                        <th>Код</th>
-                        <th>Изменить</th>
-                        <th>Удалить</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="color">
-                            <div class="color-square"></div>
-                        </td>
-                        <td class="color-name">
-                            Мятное утро
-                        </td>
-                        <td class="color-type">
-                            base
-                        </td>
-                        <td class="color-code">
-                            #86EAE9
-                        </td>
-                        <td class="color-change">
-                            <div class="color-change-icon"></div>
-                        </td>
-                        <td class="color-remove">
-                            <div class="color-remove-icon"></div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table> -->
         </div>
         <div class="row">
             <button class="btn-add-color">Добавить цвет</button>
